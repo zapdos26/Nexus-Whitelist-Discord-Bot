@@ -1,0 +1,33 @@
+{
+  "name": "nexus-whitelist-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "set debug=* && ts-node-dev --respawn --transpileOnly ./src/server.ts",
+    "prod": "node ./build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zapdos26/Nexus-Whitelist-Discord-Bot.git"
+  },
+  "author": "Zapdos26",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zapdos26/Nexus-Whitelist-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/zapdos26/Nexus-Whitelist-Discord-Bot#readme",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/node": "^14.0.6",
+    "axios": "^0.19.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "ts-node": "^8.10.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.9.3"
+  }
+}
